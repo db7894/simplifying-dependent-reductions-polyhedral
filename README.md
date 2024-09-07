@@ -1,6 +1,6 @@
 # simplifying-dependent-reductions-polyhedral
 
-This paper: https://arxiv.org/abs/2007.11203
+A basic implementation of an MLIR pass based on the paper ["Simplfying Dependent Reductions in the Polyhedral Model"](https://arxiv.org/abs/2007.11203) by Yang et al. This isn't a fully general/robust pass but written for pedagogical purposes. I've only tested it on two examples: a simple prefix sum and a depth-3 loopnest reduction. 
 
 ```
 bazel build //:optimizer
